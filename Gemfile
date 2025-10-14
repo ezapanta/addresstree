@@ -61,3 +61,5 @@ gem "shakapacker", "= 8.4"
 gem "react_on_rails", "= 16.0.0"
 
 gem "overmind", "~> 2.5"
+
+gem "seed_dump"
