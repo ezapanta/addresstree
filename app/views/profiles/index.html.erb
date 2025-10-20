@@ -4,7 +4,7 @@
 <div id="profiles">
   <% @profiles.each do |profile| %>
     <ul>
-      <li>
+      <li class="font-bold">
         <%= react_component("Profiles", props: { username: profile.username }, prerender: true) %>
       </li>
     </ul>

@@ -63,3 +63,6 @@ gem "react_on_rails", "= 16.0.0"
 gem "overmind", "~> 2.5"
 
 gem "seed_dump"
+
+gem "tailwindcss-ruby", "~> 4.1"
+gem "tailwindcss-rails", "~> 4.3"
