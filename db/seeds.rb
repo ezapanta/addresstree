@@ -40,13 +40,13 @@ profiles = [
     username: "caseoh_"
   },
   {
-    name: "Jynxzi",
+    name: "Nicholas Stewart",
     website: nil,
     youtube: "https://www.youtube.com/@Jynxzi",
     instagram: "https://www.instagram.com/Jynxzi/",
     tiktok: "https://www.tiktok.com/@Jynxzi",
     twitch: "https://www.twitch.tv/jynxzi",
-    username: "Nicholas Stewart"
+    username: "Jynxzi"
   },
   {
     name: "Jason Nguyen",
@@ -86,6 +86,6 @@ profiles = [
   }
 ]
 
-profiles.each do |profiles|
-  profiles.create!(celebrity)
+profiles.each do |profile|
+  Profile.create(profile)
 end
